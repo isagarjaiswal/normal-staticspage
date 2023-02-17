@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(48, 128, 237);
+      display: flex;
+      justify-content:center;
+      align-items: center;
+}
+.container{
+    width: 80%;
+    height: 90%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.nav{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(239, 239, 239); 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav > button{
+    width: 100px;
+    height: 25px;
+    color: #fff;
+    background-color:rgb(48, 128, 237);
+    border-top-left-radius: 15px;
+   letter-spacing: 5px;
+   font: 700 18px "montserrat";
+   padding-left: 10px ;
+   border: none;
+
+}
+.profile{
+    /* width:   130px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.nav > .profile > img{
+    margin-left: -8px;
+    width : 90px;
+    /* height: 50px; */
+    /* height: 100px; */
+    border-radius: 50px;
+    /* background-image: url(profile.jpeg); */
+ 
+}
+.nav > .profile >h6{
+    color: rgb(8, 8, 36);
+    font: 700 12px "montserrat";
+    
+}
+.nav > .profile > p{
+    color: rgb(8, 8, 36);
+    font: 500 11px "montserrat";
+}
+.nav > ul{
+    list-style: none;
+    font: 600 15px "montserrat";
+    line-height: 35px;
+    color: grey;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+.bold{
+    cursor: pointer;
+  color: rgb(22, 22, 58);
+}
+.nav > pre{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    font: 600 16px "montserrat";
+    color: grey;
+    margin-left: -40px;
+    /* margin-top: -40px; */
+    /* background-color: red; */
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 58%;
+    height: 10%;
+    font: 600 16px "montserrat";
+    position: absolute;
+    top: 8%;
+    left: 27%;
+}
+.content{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(248, 248, 248);
+    /* background-color: red; */
+}
+.upper-content{
+    margin-top: 20px;
+    /* background-color: red; */
+    width: 100%;
+    height: 50%;
+   
+}
+.upper-content > img{
+     width: 80%;
+     margin-left: 100px; 
+     margin-top: 50px;
+}
+.lower-content{
+display: flex;
+
+}
+.left-lower-content{
+    width: 30vmax;
+    height: 18.8vmax;
+    /* background-color: red; */
+
+}
+.left-lower-content > .p{
+    font: 700 20px "montserrat";
+    color: rgb(15, 15, 47);
+    padding-top: 30px;
+    padding-left: 12px;
+}
+.left-lower-content > ul{
+    font: 600 18px "montserrat";
+    color: grey ;
+    list-style: circle;
+    line-height: 40px;
+    margin-left:50px;
+    margin-top: 50px;
+}
+.conic{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    /* background:red; */
+    width: 120px;
+    height: 120px;
+
+    
+ }
+.right-lower-content{
+    width: 35vmax;
+    height: 18.8vmax;
+    /* background:green; */
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.right-lower-content > h3{
+    font: 700 18px "montserrat";
+}
+.right-lower-content > p{
+    margin-top: -50px;
+    font: 400 12px "montserrat";
+}
+.right-lower-content > h4 >span{
+    font: 700 18px "montserrat";
+}
+.right-lower-content > h4 {
+    margin-top: -30px;
+    font: 600 16px "montserrat";
+}
+.right-lower-content > button{
+    width: 110px;
+    height: 28px;
+    font: 700 14px "montserrat";
+    background-color:rgb(48, 128, 237);
+    color: #fff;
+    border-radius:15px;
+    border: none;
+    margin-left: 20px;
+}
+.carton > img {
+    position: absolute;
+    top: 60%;
+    right: 15%;
+}
